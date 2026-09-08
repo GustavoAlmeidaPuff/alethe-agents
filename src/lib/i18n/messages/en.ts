@@ -82,6 +82,7 @@ export const en = {
   'agent.claude.desc': 'Anthropic CLI',
   'agent.codex.desc': 'OpenAI CLI',
   'agent.copilot.desc': 'GitHub CLI agent',
+  'agent.cursor.desc': 'Cursor CLI (cursor-agent)',
   'agent.opencode.desc': 'Open source',
   'agent.freebuff.desc': 'Free coding agent',
   'agent.mimo.desc': 'Xiaomi CLI',

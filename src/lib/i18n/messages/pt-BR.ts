@@ -80,6 +80,7 @@ export const ptBR: Record<MessageKey, string> = {
   'agent.claude.desc': 'Anthropic CLI',
   'agent.codex.desc': 'OpenAI CLI',
   'agent.copilot.desc': 'Agente CLI do GitHub',
+  'agent.cursor.desc': 'CLI do Cursor (cursor-agent)',
   'agent.opencode.desc': 'Open source',
   'agent.freebuff.desc': 'Agente grátis',
   'agent.mimo.desc': 'CLI da Xiaomi',

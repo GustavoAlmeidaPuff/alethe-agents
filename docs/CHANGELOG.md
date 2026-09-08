@@ -12,6 +12,13 @@ Notable user-facing changes to **Alethe** are documented here. The format is bas
 
 ### Added
 
+- Git status decorations and standard file type icons in the File Explorer. Changed, uncommitted,
+  untracked, staged, deleted, and conflicted files now display standard VS Code-like status colors
+  (amber for modified, green for untracked/added, red for deleted/conflict) and badge letters (`M`,
+  `U`, `A`, `D`, `!`, `R`). Parent folders propagate the status of their dirty contents and display
+  a matching status dot indicator (`●`). Files across the tree also render extension-aware icons.
+
+
 - Cursor CLI (`cursor-agent`) as a first-class agent: pick it when creating a pane or a sub-tab,
   enable or disable it under Preferences → Terminal, point it at a custom binary, and install it
   from inside Alethe when it is missing. Panes keep their conversation — Alethe opens a chat through
